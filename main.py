@@ -10,6 +10,12 @@ def mul(a, b):
 def div(a, b):
     return a / b
 
+def gaf():
+    return "gaf"
+
+def meow():
+    return "meow"
+
 
 if __name__ == '__main__':
     a, b = 10, 5
@@ -17,3 +23,5 @@ if __name__ == '__main__':
     print(f"Разность: {sub(a, b)}")
     print(f"Произведение: {mul(a, b)}")
     print(f"Частное: {div(a, b)}")
+    print(gaf())
+    print(meow())
